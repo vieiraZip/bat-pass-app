@@ -5,9 +5,14 @@ import styles from "./HomeStyle"
 
 export default function Home(){
     return(
-        <View style = {styles.container}>
-            <Batlogo></Batlogo>
-            <Text>Olá mundo</Text>
+        <View style = {styles.appContainer}>
+
+
+            <View style = {styles.logoContainer}>
+                <Batlogo></Batlogo>
+            </View>
+
+
         </View>
     )
 }

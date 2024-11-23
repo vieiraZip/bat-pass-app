@@ -1,10 +1,6 @@
 import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
-  logotitle:{
-    borderWidth: 2,
-    borderColor: '#E5BF3C'
-  },
   title:{
     textAlign:'center',
     fontWeight:'bold',
