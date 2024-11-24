@@ -4,6 +4,7 @@ import { StatusBar } from "expo-status-bar"
 import { Batlogo } from "../../components/Batlogo/Batlogo"
 import styles from "./HomeStyle"
 import { BatTextInput } from "../../components/TextInput/TextInput"
+import { Batbutton } from "../../components/Batbutton/BatButton"
 
 export default function Home(){
     return(
@@ -15,7 +16,7 @@ export default function Home(){
             </View>
 
             <View style = {styles.inputContainer}>
-                <BatTextInput></BatTextInput>
+                <Batbutton></Batbutton>
             </View>
 
             <StatusBar style = 'light'/>

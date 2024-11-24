@@ -21,9 +21,7 @@ const styles = StyleSheet.create({
     inputContainer: {
       width: '80%',
       alignItems: 'center',
-      flexDirection: 'column',
-      borderColor: 'red',
-      borderWidth: 2,
+      flexDirection: 'column'
     }
   })
 
