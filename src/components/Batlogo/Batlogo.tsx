@@ -10,6 +10,5 @@ export function Batlogo() {
         <Image source={batlogo}style={styles.logo}></Image>
     </View>
    
-    
   );
 }
